@@ -1,0 +1,79 @@
+# -------------------
+# Node.js (Express.js)
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+log/
+
+# Environment variables
+.env
+.env.*
+
+
+# -------------------
+# React (Frontend)
+# -------------------
+build/
+dist/
+.cache/
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# React testing
+coverage/
+*.tgz
+
+# Mac system files
+.DS_Store
+
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.pkl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python environment files
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# -------------------
+# VS Code settings
+# -------------------
+.vscode/
+*.code-workspace
+
+# -------------------
+# AWS Credentials (NEVER PUSH!)
+# -------------------
+.aws/credentials
+.aws/config
+*.pem
+*.ppk
+
+# -------------------
+# OS-specific
+# -------------------
+Thumbs.db
+ehthumbs.db
+Icon?
